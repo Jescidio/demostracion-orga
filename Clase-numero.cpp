@@ -28,7 +28,7 @@ int main(){
   Numero* n = new Numero;
   n->setNum(40);
 
-  if(n->esPar)
+  if(n->esPar())
     cout<<n->getNum()<<" es par"<<endl;
   else
     cout<<n->getNum()<<" es impar"<<endl;
