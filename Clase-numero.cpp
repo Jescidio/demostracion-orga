@@ -21,6 +21,8 @@ bool esPar(){
     return true;
   return false;
 }
+int potencia(int m_){
+   return Pot(num, m_)}
 };
 
 int main(){
@@ -32,6 +34,8 @@ int main(){
     cout<<n->getNum()<<" es par"<<endl;
   else
     cout<<n->getNum()<<" es impar"<<endl;
+
+cout<<"Potencia de "<<n->getNum()<<" a la 5: "<<n->potencia(5)<<endl;
   
   return 0;
 }
